@@ -97,7 +97,7 @@ __DATA__
 
 
 === TEST 16: testinput1:1935
---- re: \x0{ab}
+--- re: \x0\{ab}
 --- s eval: "\0{ab} "
 
 

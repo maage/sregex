@@ -247,19 +247,19 @@ __DATA__
 
 
 === TEST 40: testinput1:1449
---- re: ab{3cd
+--- re: ab\{3cd
 --- s eval: "ab{3cd"
 
 
 
 === TEST 41: testinput1:1452
---- re: ab{3,cd
+--- re: ab\{3,cd
 --- s eval: "ab{3,cd"
 
 
 
 === TEST 42: testinput1:1455
---- re: ab{3,4a}cd
+--- re: ab\{3,4a}cd
 --- s eval: "ab{3,4a}cd"
 
 

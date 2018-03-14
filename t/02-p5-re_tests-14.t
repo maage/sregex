@@ -172,13 +172,13 @@ __DATA__
 
 
 === TEST 27: re_tests:1450
---- re: abc\N {U+41}
+--- re: abc\N \{U+41}
 --- s eval: "-"
 
 
 
 === TEST 28: re_tests:1451
---- re: abc\N {SPACE}
+--- re: abc\N \{SPACE}
 --- s eval: "-"
 
 
