@@ -156,7 +156,7 @@ distclean: clean
 	$(HOST_RM) src/sregex/sre_yyparser.[ch]
 
 test: all
-	prove -j$(jobs) -r t
+	prove -j$(jobs) -I. -r t
 
 val:
 	$(MAKE) use_valgrind=1 all -B -j$(jobs)
