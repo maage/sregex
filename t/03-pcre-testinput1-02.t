@@ -145,12 +145,20 @@ __DATA__
 
 
 === TEST 24: testinput1:94
+--- SKIP
+# Fails with perl 5.26
+# got: (0, 3) (0, 1)
+# expected: (0, 3) (2, 1)
 --- re: ^(b+|a){1,2}?bc
 --- s eval: "bbc"
 
 
 
 === TEST 25: testinput1:97
+--- SKIP
+# Fails with perl 5.26
+# got: (0, 4) (0, 2)
+# expected: (0, 4) (1, 2)
 --- re: ^(b*|ba){1,2}?bc
 --- s eval: "babc"
 
